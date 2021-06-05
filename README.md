@@ -34,9 +34,41 @@ There are plenty of tools, which allow you to track your working time. Sometimes
 
 ### Root object
 
-| Field Name    | Type                       | Description         |
-| ------------- |:--------------------------:| -------------------:|
-| meta          | [Meta Object](#Meta Object)| The meta information about the data|
-| timeTracking  | [Time Tracking Object](#Time Tracking Object)| Object containing information about working time|                             
+| Field Name    | Type                       | Description         |Required|
+| ------------- |:--------------------------:| -------------------:|-------:|
+| meta          | [Meta Object](#Meta Object)| The meta information about the data|yes|
+| timeTracking  | List of [Time Tracking Object](#Time Tracking Object)| Object containing information about working time|yes|                             
+
+
+## Meta Object
+
+| Field Name    | Type                       | Description         |Required|
+| ------------- |:--------------------------:| -------------------:|-------:|
+| author          | [Author Object](#Author Object)| The meta information about the creator of the data|yes|
+
+## Author Object
+
+| Field Name    | Type                       | Description         |Required|
+| ------------- |:--------------------------:| -------------------:|-------:|
+| name          | String| First and last name of the user|yes|
+
+
+## Time Tracking Object
+
+| Field Name    | Type                       | Description         |Required|
+| ------------- |:--------------------------:| -------------------:|-------:|
+| taskName          | String| Title of the task|yes|
+| taskId  | String| Unique task identifier| no|
+| spentTime  | String| Spent time in the [format](#Spent time)| yes|
+| description  | String| Description of the work | no|
+| timeRange          | [Time Range Object](#Time Range Object)| From/till time range|no|
+
+## Time Range Object
+
+| Field Name    | Type                       | Description         |Required|
+| ------------- |:--------------------------:| -------------------:|-------:|
+| from          | String| Time in 24h format, e.g: 17:20|yes|
+| till          | String| Time in 24h format, e.g: 17:20|yes|
+
 
 
