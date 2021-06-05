@@ -36,7 +36,7 @@ There are plenty of tools, which allow you to track your working time. Sometimes
 
 | Field Name    | Type                       | Description         |Required|
 | ------------- |:--------------------------:| -------------------:|-------:|
-| meta          | [Meta Object](#Meta Object)| The meta information about the data|yes|
+| meta          | [Meta Object](##meta-object)| The meta information about the data|yes|
 | timeTracking  | List of [Time Tracking Object](#Time Tracking Object)| Object containing information about working time|yes|                             
 
 
