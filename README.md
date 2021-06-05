@@ -36,7 +36,7 @@ There are plenty of tools, which allow you to track your working time. Sometimes
 
 | Field Name    | Type                       | Description         |Required|
 | ------------- |:--------------------------:| -------------------:|-------:|
-| meta          | [Meta Object](##meta-object)| The meta information about the data|yes|
+| meta          | [Meta Object](#meta-object)| The meta information about the data|yes|
 | timeTracking  | List of [Time Tracking Object](#Time Tracking Object)| Object containing information about working time|yes|                             
 
 
@@ -44,7 +44,7 @@ There are plenty of tools, which allow you to track your working time. Sometimes
 
 | Field Name    | Type                       | Description         |Required|
 | ------------- |:--------------------------:| -------------------:|-------:|
-| author          | [Author Object](#Author Object)| The meta information about the creator of the data|yes|
+| author          | [Author Object](#author-object)| The meta information about the creator of the data|yes|
 
 ## Author Object
 
@@ -59,9 +59,10 @@ There are plenty of tools, which allow you to track your working time. Sometimes
 | ------------- |:--------------------------:| -------------------:|-------:|
 | taskName          | String| Title of the task|yes|
 | taskId  | String| Unique task identifier| no|
-| spentTime  | String| Spent time in the [format](#Spent time)| yes|
+| spentTime  | String| Spent time. Possible options: 2h, 25m| yes|
 | description  | String| Description of the work | no|
-| timeRange          | [Time Range Object](#Time Range Object)| From/till time range|no|
+| timeRange          | [Time Range Object](#time-range-object)| From/till time range|no|
+
 
 ## Time Range Object
 
