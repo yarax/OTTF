@@ -5,6 +5,10 @@
 Open Time Tracking Format (OTTF) - is an open format for describing working activity. 
 There are plenty of tools, which allow you to track your working time. Sometimes you need to track your time multiple times or the way you can do it takes too much effort. Our goal is to provide one common format for all of the time tracking tools, in order to migrate data between them easily and with no extra effort.
 
+## Why
+
+https://yarax.medium.com/one-common-format-for-all-the-time-tracking-tools-cc5ba7fa37f1
+
 ## Example
 
 ```
