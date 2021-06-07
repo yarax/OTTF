@@ -1,4 +1,4 @@
-# Open Tracking Time Format
+# Open Time Tracking Format
 
 ## What is it
 
