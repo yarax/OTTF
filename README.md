@@ -72,8 +72,8 @@ https://yarax.medium.com/one-common-format-for-all-the-time-tracking-tools-cc5ba
 
 | Field Name    | Type                       | Description         |Required|
 | ------------- |:--------------------------:| -------------------:|-------:|
-| from          | String| Time in 24h format, e.g: 17:20|yes|
-| till          | String| Time in 24h format, e.g: 17:20|yes|
+| from          | String| YYYY-MM-DD'T'HH:mm:ss'Z' Timestamp in ISO 8601 format, e.g 2018-06-13T12:11:13+05:30 |yes|
+| till          | String| YYYY-MM-DD'T'HH:mm:ss'Z' Timestamp in ISO 8601 format, e.g 2018-06-13T12:11:13+05:30 |yes|
 
 
 
