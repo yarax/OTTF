@@ -25,8 +25,8 @@ https://yarax.medium.com/one-common-format-for-all-the-time-tracking-tools-cc5ba
         "taskId: "MDP-459",
         "spentTime": "4h",
         "timeRange": {
-          "from": "08:00",
-          "till": "12:00"
+          "from": "2023-06-13T12:00:00+05:30",
+          "till": "2023-06-13T16:00:00+05:30"
         },
         "description": "wrote tests and fixed bugs"
       }
