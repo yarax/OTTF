@@ -23,6 +23,7 @@ https://yarax.medium.com/one-common-format-for-all-the-time-tracking-tools-cc5ba
       {
         "taskName": "Implement unit tests for MDP-232",
         "taskId: "MDP-459",
+        "projectId": "PR101",
         "spentTime": "4h",
         "timeRange": {
           "from": "2023-06-13T12:00:00+05:30",
@@ -66,6 +67,7 @@ https://yarax.medium.com/one-common-format-for-all-the-time-tracking-tools-cc5ba
 | spentTime  | String| Spent time. Possible options: 2h, 25m| yes|
 | description  | String| Description of the work | no|
 | timeRange          | [Time Range Object](#time-range-object)| From/till time range|no|
+|projectId | String | Unique project identifier | no|
 
 
 ## Time Range Object
